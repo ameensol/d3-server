@@ -7,7 +7,7 @@ app.set('views', __dirname);
 app.set('view engine', 'html');
 
 
-var fixtureData = require('./fixture_data.json');
+var fixtureData = require('./fixture_big_data.json');
 app.locals.barChartHelper = require('./bar_chart_helper');
 
 
